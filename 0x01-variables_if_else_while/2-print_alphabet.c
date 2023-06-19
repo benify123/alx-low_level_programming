@@ -1,15 +1,17 @@
 #include <stdio.h>
-#include <stdio.h>
-#include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int k;
-	for (k = 0; k<26; k++){
-		putchar(alp[k]);
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
