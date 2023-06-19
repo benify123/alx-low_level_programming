@@ -8,11 +8,7 @@
  */
 int main(void)
 {
-	/**
- 	* maini - Entry point
- 	*
-	* Return: Always 0 (Success)
- 	*/
+	/*h*/
 	int n;
 
 	srand(time(0));
