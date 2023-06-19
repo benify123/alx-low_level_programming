@@ -8,6 +8,11 @@
  */
 int main(void)
 {
+	/**
+ 	* maini - Entry point
+ 	*
+	* Return: Always 0 (Success)
+ 	*/
 	int n;
 
 	srand(time(0));
